@@ -1,0 +1,37 @@
+{"properties": [
+  {
+    "name": "log4j.rootLogger",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j.rootLogger'"
+  },
+  {
+    "name": "log4j.appender.myAppender",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j.appender.myAppender'"
+  },
+  {
+    "name": "log4j.appender.myAppender.File",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j.appender.myAppender.File'"
+  },
+  {
+    "name": "log4j.appender.myAppender.DatePattern",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j.appender.myAppender.DatePattern'"
+  },
+  {
+    "name": "log4j.appender.myAppender.layout.ConversionPattern",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j.appender.myAppender.layout.ConversionPattern'"
+  },
+  {
+    "name": "log4j.appender.myAppender.layout",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j.appender.myAppender.layout'"
+  },
+  {
+    "name": "log4j.appender.myAppender.layout.ConversionPattern",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j.appender.myAppender.layout.ConversionPattern'"
+  }
+]}

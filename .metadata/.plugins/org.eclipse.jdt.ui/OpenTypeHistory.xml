@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=12-SpringWebMVC-CRM-CrudApp1/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;in.ineuron.service{ICustomerService.java[ICustomerService" modifiers="513" timestamp="1682245417434"/>
+    <typeInfo handle="=12-SpringWebMVC-CRM-CrudApp1/C:\/Users\/mangesh.dhande\/.m2\/repository\/org\/springframework\/data\/spring-data-commons\/3.0.5\/spring-data-commons-3.0.5.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-commons=/=/maven.version=/3.0.5=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.data.repository(CrudRepository.class[CrudRepository" modifiers="1537" timestamp="1682215247494"/>
+    <typeInfo handle="=12-SpringWebMVC-CRM-CrudApp1/C:\/Users\/mangesh.dhande\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/3.0.5\/spring-data-jpa-3.0.5.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/3.0.5=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.data.jpa.repository.support(CrudMethodMetadata.class[CrudMethodMetadata" modifiers="1537" timestamp="1682215247060"/>
+</typeInfoHistroy>

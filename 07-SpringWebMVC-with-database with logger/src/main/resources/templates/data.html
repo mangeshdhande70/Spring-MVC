@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<title>Registration</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" media="all"
+	href="../../css/gtvg.css" th:href="@{/css/gtvg.css}" />
+</head>
+
+<body>
+
+	<div th:if="${employee!=null}">
+
+		<table border=1>
+			<thead>
+				<tr>
+					<th>Employee ID</th>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Salary</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td th:text="${employee.id}"></td>
+					<td th:text="${employee.name}"></td>
+					<td th:text="${employee.email}"></td>
+					<td th:text="${employee.salary}"></td>
+				</tr>
+			</tbody>
+		</table>
+
+	</div>
+	<a th:href="@{/}">Go Back </a>
+
+
+
+	<p th:unless="${user == null}">
+		Employee Not Available for given id <span th:text="${employee.id}"></span>
+	</p>
+
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Customer List</title>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	crossorigin="anonymous">
+</head>
+<body>
+	<h1>Person List</h1>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Age</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="custList : ${cust}">
+				<td th:text="${custList.firstName}"></td>
+				<td th:text="${custList.lastName}"></td>
+				<td th:text="${custList.email}"></td>
+			</tr>
+		</tbody>
+	</table>
+
+</body>
+</html>

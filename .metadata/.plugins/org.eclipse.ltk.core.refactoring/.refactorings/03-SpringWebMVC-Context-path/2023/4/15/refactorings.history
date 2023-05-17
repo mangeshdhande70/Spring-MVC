@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;in.ineuron.datasource&apos; to &apos;in.ineuron.util&apos;&#x0D;&#x0A;- Original project: &apos;03-SpringWebMVC-Context-path&apos;&#x0D;&#x0A;- Original element: &apos;03-SpringWebMVC-Context-path/src/main/java/in.ineuron.datasource&apos;&#x0D;&#x0A;- Renamed element: &apos;03-SpringWebMVC-Context-path/src/main/java/in.ineuron.util&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;in.ineuron.datasource&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;in.ineuron.datasource" name="in.ineuron.util" qualified="false" references="true" stamp="1681323632560" textual="false" version="1.0"/>
+</session>
